@@ -1,0 +1,7 @@
+mydbmydbCREATE TABLE tblTeam (
+	num 		INT PRIMARY KEY AUTO_INCREMENT, -- AUTO_INCREMENT : 자동 증가
+	NAME 	CHAR(10) NOT NULL,
+	city 		CHAR(10) NOT NULL,
+	age 		INT DEFAULT 0,
+	team 	CHAR(10) NOT NULL
+)

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function go() {
+	document.frm.action = "simpleBean4.jsp";
+	document.frm.submit();
+	}
+	</script>
+</head>
+<body>
+<form name 	="frm" action="simpleBean3.jsp">
+<!-- 반드시 Bean 선언한 private변수명이라 name은 동일 -->
+Name : <input name="name" value="강호동">
+Age : <input name="age" value="23">
+City : <input name="city" value="창원">
+<input type="submit" value="simpleBean3">
+<input type="button" onclick="javascript:go()" value="simpleBean4"  >
+</form><p/>
+</body>
+</html>
